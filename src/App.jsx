@@ -3,7 +3,8 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Testimonials from "./components/testimonials/Testimonials";
-import Contact from "./components/contacts/Contacts";
+import Contact from "./components/contact/Contact";
+import Debath from "./components/contents/debath/Debath";
 import "./app.scss"
 import {useState} from "react";
 import Menu from "./components/menu/Menu";
@@ -18,10 +19,11 @@ function App() {
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
             <div className="sections">
                 <Intro/>
-                <Portfolio/>
                 <Works/>
+                <Portfolio/>
                 <Testimonials/>
                 <Contact/>
+                <Debath/>
             </div>
             sec -intro -portafolio - work ....
 

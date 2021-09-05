@@ -1,0 +1,35 @@
+{
+  "topbar": {
+    "linkedin-spam": "Visit my Linkedin!",
+    "email": "victormoraisllahi@gmail.com"
+  },
+  "menu": {
+    "intro": "Intro",
+    "portfolio": "Portfolio",
+    "works": "Works",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "intro": {
+    "first": "Hi there, my name is",
+    "second": "Víctor Morais",
+    "third": "and I'm a ",
+    "textRef": {
+      "1":"Computer engineering student",
+      "2":"Software Developer",
+      "3":"Novel writer",
+      "4":"Videogames and films passionate",
+      "5":"Experienced swimmer"
+    }
+  },
+  "content": {
+    "debath": {
+      "h1": "My experience",
+      "h2": "as a Debate Speaker",
+      "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra, velit non pulvinar consequat, quam odio tincidunt nunc, at lacinia lectus dui id massa. Vestibulum in ornare velit, sed faucibus elit. Curabitur interdum magna ac convallis facilisis. Quisque porta posuere placerat. Fusce quis elit justo. Etiam rutrum turpis in faucibus tincidunt. Nam nec orci condimentum, placerat neque et, sollicitudin est. Nullam nec vehicula nibh, id pellentesque metus.",
+      "p2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra, velit non pulvinar consequat, quam odio tincidunt nunc, at lacinia lectus dui id massa. Vestibulum in ornare velit, sed faucibus elit. Curabitur interdum magna ac convallis facilisis. Quisque porta posuere placerat. Fusce quis elit justo. Etiam rutrum turpis in faucibus tincidunt. Nam nec orci condimentum, placerat neque et, sollicitudin est. Nullam nec vehicula nibh, id pellentesque metus.",
+      "sub1" : "Know how to listen, know how to speak",
+      "sub2": "All product of a group effort"
+    }
+  }
+}

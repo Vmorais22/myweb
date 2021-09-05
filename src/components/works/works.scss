@@ -29,7 +29,7 @@
     display: flex;
     position: absolute;
     left: 0;
-    transition: all 1s ease;
+    transition: all 1s ease-out; //start fast, finish slow
 
     .container {
       width: 100vw;
@@ -91,7 +91,6 @@
             }
           }
         }
-
         .right {
           flex: 8;
           height: 100%;
