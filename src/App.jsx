@@ -19,7 +19,6 @@ const Home = () => {
         <Portfolio/>
         <Testimonials/>
         <Contact/>
-        <Project/>
     </div>)
 }
 
@@ -36,6 +35,8 @@ function App() {
                     <Switch>
                         <Route exact path="/" render={() => <Home/>}/>
                         <Route exact path="/debath" render={() => <Debath/>}/>
+                        <Route exact path="/project" render={() => <Project/>}/>
+
                     </Switch>
                 </BrowserRouter>
 

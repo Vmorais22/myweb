@@ -57,7 +57,7 @@ export const researchPortfolio = [
         title: "TFG",
         img:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
+        link: "/project",
     },
     {
         id: 2,
