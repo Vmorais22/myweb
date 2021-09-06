@@ -22,6 +22,14 @@
       "5":"Nadador experimentado"
     }
   },
+  "personalPortfolio": {
+    "1": {
+      "title": "Mi currículum"
+    },
+    "2": {
+      "title": "Debates"
+    }
+  },
   "content": {
     "debath": {
       "h1": "Mi experiencia como integrante",

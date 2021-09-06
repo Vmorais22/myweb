@@ -4,7 +4,7 @@ import headerPhoto from "../../../assets/debath-photo.PNG"
 import frame1 from "../../../assets/frameDebath1.png"
 import frame2 from "../../../assets/frameDebath2.png"
 
-export default function Testimonials() {
+export default function Debath() {
     const [t] = useTranslation("global");
     return (
         <div className="debath">

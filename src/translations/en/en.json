@@ -22,6 +22,14 @@
       "5":"Experienced swimmer"
     }
   },
+  "personalPortfolio": {
+    "1": {
+      "title": "My resume"
+    },
+    "2": {
+      "title": "Debaths"
+    }
+  },
   "content": {
     "debath": {
       "h1": "My experience",

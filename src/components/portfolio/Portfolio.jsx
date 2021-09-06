@@ -5,8 +5,11 @@ import {useEffect, useState} from "react";
 import {
     personalPortfolio, projectsPortfolio, researchPortfolio, otherPortfolio
 } from "../../data";
+import {NavLink} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 export default function Portfolio() {
+    const [t] = useTranslation("global");
     const [selected, setSelected] = useState("personal");
     const [data, setData] = useState([]);
     const list = [
@@ -55,10 +58,12 @@ export default function Portfolio() {
                 ))}
             </ul>
             <div className="container">
-                {data.map((d)=>(
+                {data.map((d) => (
                     <div className="item">
-                        <img src={d.img} alt="cv"/>
-                        <h3>{d.title}</h3>
+                        <NavLink to={d.link} style={{textDecoration: 'none'}}>
+                            <img src={d.img} alt="cv"/>
+                        </NavLink>
+                        <h3>{t(d.title)}</h3>
                     </div>
                 ))}
             </div>

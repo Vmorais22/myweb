@@ -10,23 +10,23 @@ export default function Menu({menuOpen,setMenuOpen}) {
             <ul>
                 <hr/>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#intro">{t("menu.intro")}</a>
+                    <a href="/#intro">{t("menu.intro")}</a>
                 </li>
                 <hr/>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#works">{t("menu.works")}</a>
+                    <a href="/#works">{t("menu.works")}</a>
                 </li>
                 <hr/>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#portfolio">{t("menu.portfolio")}</a>
+                    <a href="/#portfolio">{t("menu.portfolio")}</a>
                 </li>
                 <hr/>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#testimonials">{t("menu.testimonials")}</a>
+                    <a href="/#testimonials">{t("menu.testimonials")}</a>
                 </li>
                 <hr/>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#contact">{t("menu.contact")}</a>
+                    <a href="/#contact">{t("menu.contact")}</a>
                 </li>
                 <hr className="fixed_bar"/>
                 <li onClick={()=>setMenuOpen(false)}>
