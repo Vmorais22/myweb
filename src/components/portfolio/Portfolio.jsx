@@ -1,5 +1,4 @@
 import "./portfolio.scss"
-import cv from "../../assets/cv.png"
 import PortfolioList from "../portfolioList/PortfolioList";
 import {useEffect, useState} from "react";
 import {

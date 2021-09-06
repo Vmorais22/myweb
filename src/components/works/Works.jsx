@@ -1,5 +1,4 @@
 import "./works.scss"
-import mobile from "../../assets/mobile.png"
 import cv from "../../assets/cv.png"
 import arrow from "../../assets/arrow.png"
 import {sliderData} from "../../sliderData.js"
