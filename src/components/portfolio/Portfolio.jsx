@@ -59,12 +59,11 @@ export default function Portfolio() {
             </ul>
             <div className="container">
                 {data.map((d) => (
-                    <div className="item">
-                        <NavLink to={d.link} style={{textDecoration: 'none'}}>
-                            <img src={d.img} alt="cv"/>
-                        </NavLink>
+                    <NavLink className="item" to={d.link} style={{textDecoration: 'none'}}>
+                        <img src={d.img} alt="cv"/>
                         <h3>{t(d.title)}</h3>
-                    </div>
+                    </NavLink>
+
                 ))}
             </div>
 
