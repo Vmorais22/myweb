@@ -35,7 +35,7 @@ function App() {
                     <Switch>
                         <Route exact path="/" render={() => <Home/>}/>
                         <Route exact path="/debath" render={() => <Debath/>}/>
-                        <Route exact path="/project" render={() => <Project/>}/>
+                        <Route exact path="/project/:id" render={(props) => <Project id={props.match.params.id}/>}/>
 
                     </Switch>
                 </BrowserRouter>
