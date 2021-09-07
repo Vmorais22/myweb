@@ -7,7 +7,6 @@ class Project extends Component {
 
     render() {
         const id = this.props.id;
-        console.log(id)
         return (
 
             <div className="project">
@@ -23,21 +22,19 @@ class Project extends Component {
                     <div className="tools">
                         <h2>Tools:</h2>
                         <div className="icon">
-                            <img src={projectData.find(x => x.id === parseInt(id, 10)).icons.tools.i1} title="Intellij"
-                                 alt="Intellij"/>
-                            <img src={projectData.find(x => x.id === parseInt(id, 10)).icons.tools.i2} title="Intellij"
-                                 alt="Intellij"/>
-                            <img src={projectData.find(x => x.id === parseInt(id, 10)).icons.tools.i3} title="Intellij"
-                                 alt="Intellij"/>
+                            {(projectData.find(x => x.id === parseInt(id, 10)).icons.tools).map((p) => (
+                                <img src={p} title="Intellij"
+                                     alt="Intellij"/>))}
                         </div>
                     </div>
                     <div className="languages">
                         <h2>Languages & Frameworks:</h2>
                         <div className="icon">
-                            <img src={projectData.find(x => x.id === parseInt(id, 10)).icons.languagues.i1}
-                                 title="Intellij" alt="Intellij"/>
-                            <img src={projectData.find(x => x.id === parseInt(id, 10)).icons.languagues.i2}
-                                 title="Intellij" alt="Intellij"/>
+                            <div className="icon">
+                                {(projectData.find(x => x.id === parseInt(id, 10)).icons.languagues).map((p) => (
+                                    <img src={p} title="Intellij"
+                                         alt="Intellij"/>))}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,7 +44,8 @@ class Project extends Component {
                         <p>{projectData.find(x => x.id === parseInt(id, 10)).text}</p>
                     </div>
                     <div className="photo">
-                        <img src={projectData.find(x => x.id === parseInt(id, 10)).photo} title="Intellij" alt="Intellij"/>
+                        <img src={projectData.find(x => x.id === parseInt(id, 10)).photo} title="Intellij"
+                             alt="Intellij"/>
                     </div>
                 </div>
                 image slider
