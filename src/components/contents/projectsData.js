@@ -13,7 +13,7 @@ import mb from "../../assets/mb.png"
 import mario from "../../assets/mario.PNG"
 import matlab from "../../assets/Matlab-1.png"
 import señales from "../../assets/signsdetec.png"
-import hn from "../../assets/Hn_screenshot.png"
+import hn from "../../assets/hn.png"
 
 export const projectData = [
     {
