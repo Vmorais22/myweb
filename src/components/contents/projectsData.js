@@ -11,6 +11,9 @@ import yayOS from "../../assets/exampleYayos1.PNG"
 import pockles from "../../assets/Sin título.png"
 import mb from "../../assets/mb.png"
 import mario from "../../assets/mario.PNG"
+import matlab from "../../assets/Matlab-1.png"
+import señales from "../../assets/signsdetec.png"
+import hn from "../../assets/Hn_screenshot.png"
 
 export const projectData = [
     {
@@ -77,5 +80,45 @@ export const projectData = [
 
         },
         git: "https://github.com/SergioArcos1999/3DGame-VJ",
+    },
+    {
+        id: 4,
+        title: "Algoritmo de detección de señales de tráfico",
+        summary: "Un detector de señales de tráfico a base del estudio de la composición cromática, su circularidad y la orientación de los píxeles. Proyecto realizado conjuntamente con Pau Dastis.",
+        icons: {
+            ntools: 1,
+            tools: [matlab],
+            nlanguages: 1,
+            languagues: [matlab],
+        },
+        text: "El objetivo de esta práctica es identificar correctamente una señal de tráfico presente en cualquier imagen de entrada de una base de datos en concreto. Aunque solo hay 43 tipos de señales a reconocer, la base de datos contiene un subconjunto de casi 40.000 imágenes.\n" +
+            "\n" +
+            "Las imágenes utilizadas para esta práctica han sido extraídas de una grabación realizada en un vehículo en marcha y las fotografías han sido tomadas desde distintos ángulos, distancias, fondos e incluso con variaciones en cuanto a la iluminación,el color y la escala se refiere.\n" +
+            "\n" +
+            "Para realizar este proyecto, extraemos las características que, a nuestro juicio, nos parezcan las más discriminantes con el fin de, mediante un clasificador, poder razonar y decidir a qué señal pertenecen los datos que observamos en dichos descriptores. Usaremos un conjunto de imágenes para entrenar al sistema y otro para testearlo (las imágenes que usaremos para hacer el test no habrán sido procesadas antes por el sistema).\n" +
+            "\n" +
+            "Esta práctica se desarrollará con el sistema de cómputo genérico MATLAB.\n",
+        photo: señales,
+        opt: { //segundo texto o fotos-slider
+
+        },
+        git: "https://bitbucket.org/paudastis/practica/src/master/",
+    },
+    {
+        id: 5,
+        title: "Recreación del foro web Hacker News",
+        summary: "Hacker News es un sitio web de noticias sociales que se centra en la informática y el espíritu empresarial. El objetivo de este proyecto fue simplemente el de recrear toda sus funcionalidades y diseño. Práctica desarrollado junto con Víctor Blanco, Marc Bofill y Segio Vázquez.",
+        icons: {
+            ntools: 2,
+            tools: [intellij, postman],
+            nlanguages: 2,
+            languagues: [react, js],
+        },
+        text: "Una práctica universitaria que permitió trabajar por primera vez con contenido dinámico como la publicación y reacción a posts y comentarios, la creación de sistemas de gestión de bases de datos y de identificación y la edición de contenido subidos a servidores.",
+        photo: hn,
+        opt: { //segundo texto o fotos-slider
+
+        },
+        git: "https://bitbucket.org/sergiovmdo9797/hackernews-web-g12e/src/master/",
     },
 ];

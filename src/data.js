@@ -4,6 +4,8 @@ import cv from "./assets/cv.png"
 import yayOS from "./assets/exampleYayos1.PNG"
 import pockles from "./assets/pockles.png"
 import mario from "./assets/ejmario.PNG"
+import señales from "./assets/señales.PNG"
+import hn from "./assets/hn.png"
 
 export const personalPortfolio = [
     {
@@ -42,14 +44,14 @@ export const projectsPortfolio = [
     {
         id: 4,
         title: "Traffic algorithm",
-        img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-        link: "/debath",
+        img: señales,
+        link: "/project/4",
     },
     {
         id: 5,
         title: "Hacker News",
-        img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-        link: "/debath",
+        img: hn,
+        link: "/project/5",
     },
 ];
 
