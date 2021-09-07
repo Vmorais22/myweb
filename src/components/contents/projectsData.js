@@ -9,6 +9,8 @@ import kotlin from "../../assets/kotlin.png"
 import unity from "../../assets/unity.png"
 import yayOS from "../../assets/exampleYayos1.PNG"
 import pockles from "../../assets/Sin título.png"
+import mb from "../../assets/mb.png"
+import mario from "../../assets/mario.PNG"
 
 export const projectData = [
     {
@@ -33,7 +35,7 @@ export const projectData = [
     }, {
         id: 2,
         title: "Pockles: Red de mensajería geosocial",
-        summary: "Pockles es una aplicación Android que permite a los usuarios publicar mensajes allá donde quieran que vayan de manera que solo los usuarios que estén cerca podrán verlos. ¡Empieza a llenar el mundo de Pocks ya mismo!",
+        summary: "Pockles es una aplicación Android que permite a los usuarios publicar mensajes allá donde quieran que vayan de manera que solo los usuarios que estén cerca podrán verlos. ¡Empieza a llenar el mundo de Pocks ya mismo! En este proyecto grupal participaron: Víctor Blanco, Joan Bosch, Pau Dastis, Daniel Palomo, Joan Salvador, Sergio Vázquez y yo.",
         icons: {
             ntools: 4,
             tools: [intellij,
@@ -56,5 +58,24 @@ export const projectData = [
 
         },
         git: "https://bitbucket.org/sergiovmdo9797/pockles-app/src/develop/",
+    },
+    {
+        id: 3,
+        title: "Bouncig Mario",
+        summary: "Bouncing Mario es una adaptación inspirada en el mundo de Mario Bros del conocido juego QOMP (https://store.steampowered.com/app/1066900/qomp/) que, a su vez, es una adaptación del mítico juego de la primera generación de consolas PONG (https://es.wikipedia.org/wiki/Pong). Este proyecto fue realizado con Unity y, a nivel personal, el primer videojuego plenamente funcional que he creado. Colaboró en el desarrollo de este proyecto Sergio Arcos.",
+        icons: {
+            ntools: 3,
+            tools: [unity,
+                vs,
+                mb],
+            nlanguages: 1,
+            languagues: [cplusplus],
+        },
+        text: "El juego ofrece una experiencia en tres dimensiones de su musa, QOMP. Imita las mecánicas del juego pero cambiando por completo su estética y ambientación. EL juego se divide en una serie de niveles y el jugador tendrá que valerse de su destreza para superarlos todos y enfrentarse al nivel final. La mecánica del juego es muy simple pues tan solo existe un movimiento posible que es invertir la velocidad de la pelota apretando SPACEBAR. ¡Buena suerte!",
+        photo: mario,
+        opt: { //segundo texto o fotos-slider
+
+        },
+        git: "https://github.com/SergioArcos1999/3DGame-VJ",
     },
 ];

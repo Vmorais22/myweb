@@ -1,7 +1,9 @@
 
 import frame1 from "./assets/frameDebath1.png"
 import cv from "./assets/cv.png"
-import yayOS from "./assets/yayOS.png"
+import yayOS from "./assets/exampleYayos1.PNG"
+import pockles from "./assets/pockles.png"
+import mario from "./assets/ejmario.PNG"
 
 export const personalPortfolio = [
     {
@@ -28,14 +30,14 @@ export const projectsPortfolio = [
     {
         id: 2,
         title: "Pockles",
-        img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+        img: pockles,
         link: "/project/2",
     },
     {
         id: 3,
-        title: "Mario Run",
-        img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-        link: "/debath",
+        title: "Bouncing Mario",
+        img: mario,
+        link: "/project/3",
     },
     {
         id: 4,
