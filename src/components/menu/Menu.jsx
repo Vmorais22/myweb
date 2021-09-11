@@ -1,7 +1,7 @@
 import "./menu.scss"
 import {useTranslation} from "react-i18next";
-import esFlag from "../../assets/es.png"
-import enFlag from "../../assets/en.png"
+import esFlag from "../../assets/images/es.png"
+import enFlag from "../../assets/images/en.png"
 
 export default function Menu({menuOpen,setMenuOpen}) {
     const [t, i18n] = useTranslation("global");

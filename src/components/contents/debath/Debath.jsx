@@ -1,8 +1,8 @@
 import {useTranslation} from "react-i18next";
 import "./debath.scss";
-import headerPhoto from "../../../assets/debath-photo.PNG"
-import frame1 from "../../../assets/frameDebath1.png"
-import frame2 from "../../../assets/frameDebath2.png"
+import headerPhoto from "../../../assets/images/debath-photo.PNG"
+import frame1 from "../../../assets/images/frameDebath1.png"
+import frame2 from "../../../assets/images/frameDebath2.png"
 
 export default function Debath() {
     const [t] = useTranslation("global");

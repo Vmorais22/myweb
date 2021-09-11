@@ -46,7 +46,6 @@
   },
   "devDependencies": {
     "@material-ui/icons": "^4.11.2",
-    "@react-pdf-viewer/default-layout": "^2.8.0",
     "i18next": "^20.4.0"
   }
 }

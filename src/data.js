@@ -1,11 +1,11 @@
 
-import frame1 from "./assets/frameDebath1.png"
-import cv from "./assets/cv.png"
-import yayOS from "./assets/exampleYayos1.PNG"
-import pockles from "./assets/pockles.png"
-import mario from "./assets/ejmario.PNG"
-import señales from "./assets/señales.PNG"
-import hn from "./assets/hn.png"
+import frame1 from "./assets/images/frameDebath1.png"
+import cv from "./assets/images/cv.png"
+import yayOS from "./assets/images/exampleYayos1.PNG"
+import pockles from "./assets/images/pockles.png"
+import mario from "./assets/images/ejmario.PNG"
+import señales from "./assets/images/señales.PNG"
+import hn from "./assets/images/hn.png"
 
 export const personalPortfolio = [
     {

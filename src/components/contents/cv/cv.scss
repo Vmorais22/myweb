@@ -1,0 +1,72 @@
+.cvDisplayer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-family: "Arial Narrow", serif;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      font-size: 50px;
+    }
+  }
+.container{
+  margin: auto;
+  position: relative;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .pdfContainer {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: black;
+    cursor: pointer;
+    border: 1px solid grey;
+    animation: movimiento_logo infinite 2s linear;
+    a {
+      opacity: 0;
+      font-size: 30px;
+    }
+
+    &:hover {
+      opacity: 80%;
+
+      a {
+        background-color: #15023a;
+        opacity: 100%;
+        color: white;
+      }
+    }
+  }
+
+  @keyframes movimiento_logo {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+
+  }
+}

@@ -9,6 +9,7 @@ import {useState} from "react";
 import Menu from "./components/menu/Menu";
 import Project from "./components/contents/project/Project";
 import {Switch, Route, BrowserRouter} from "react-router-dom";
+import Cv from "./components/contents/cv/Cv";
 
 
 const Home = () => {
@@ -33,6 +34,7 @@ function App() {
                     <Switch>
                         <Route exact path="/" render={() => <Home/>}/>
                         <Route exact path="/debath" render={() => <Debath/>}/>
+                        <Route exact path="/cv" render={() => <Cv/>}/>
                         <Route exact path="/project/:id" render={(props) => <Project id={props.match.params.id}/>}/>
 
                     </Switch>

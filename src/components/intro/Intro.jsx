@@ -1,6 +1,6 @@
 import "./intro.scss"
-import me from "../../assets/me.png"
-import down from "../../assets/down.png"
+import me from "../../assets/images/me.png"
+import down from "../../assets/images/down.png"
 import {init} from 'ityped'
 import {useEffect, useRef} from "react";
 import {useTranslation} from "react-i18next";

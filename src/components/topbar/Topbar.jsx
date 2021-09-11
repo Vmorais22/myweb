@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import logo from "../../assets/logo.jpg"
+import logo from "../../assets/images/logo.jpg"
 import {useTranslation} from "react-i18next";
 import {LinkedIn, MailOutline} from "@material-ui/icons"
 

@@ -5,7 +5,9 @@ import {Component} from "react";
 
 class Project extends Component {
 
+
     render() {
+        const t = this.props.t;
         const id = this.props.id;
         return (
 
@@ -52,13 +54,11 @@ class Project extends Component {
                     <br/>
                     <br/>
                     <br/>
-                        <h1>Slider</h1>
-
                 </div>
 
                 <div className="buttonContainer">
-                    <a href={projectData.find(x => x.id === parseInt(id, 10)).git}><span>Check on Git</span></a>
-                    <a href="/"><span>Download</span></a>
+                    <a href={projectData.find(x => x.id === parseInt(id, 10)).git}><span>{t("checkgit")}</span></a>
+                    <a href="/"><span>{t("dwl")}</span></a>
                 </div>
             </div>
         );

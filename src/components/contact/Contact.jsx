@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./contact.scss";
-import shake from "../../assets/shake.svg"
+import shake from "../../assets/images/shake.svg"
 
 export default function Contact() {
     const [message, setMessage] = useState(false);

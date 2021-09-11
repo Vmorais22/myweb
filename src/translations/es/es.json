@@ -68,5 +68,9 @@
   },
   "novel": {
     "title": "Mis novelas"
-  }
+  },
+  "download": "¡Descargar ahora!",
+  "checkgit": "Ver Git",
+  "dwl": "Descargar",
+  "curriculum": "Mi currículum"
 }
