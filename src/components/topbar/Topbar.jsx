@@ -15,7 +15,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </a>
                     <div className="itemContainer">
                         <LinkedIn className="icon"/>
-                        <span>{t("topbar.linkedin-spam")}</span>
+                        <a href={"https://www.linkedin.com/in/v%C3%ADctor-morais-936583217/"}>{t("topbar.linkedin-spam")}</a>
                     </div>
                     <div className="itemContainer">
                         <MailOutline className="icon"/>

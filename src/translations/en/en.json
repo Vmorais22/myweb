@@ -22,12 +22,38 @@
       "5":"Experienced swimmer"
     }
   },
+  "portfolio": {
+    "titles":{
+      "main": "My stuff",
+      "personal": "Personal",
+      "projects": "Involved projects",
+      "research": "Research works",
+      "other": "Other"
+    }
+  },
   "personalPortfolio": {
     "1": {
       "title": "My resume"
     },
     "2": {
       "title": "Debaths"
+    }
+  },
+  "projectsPortfolio": {
+    "1": {
+      "title": "yayOS"
+    },
+    "2": {
+      "title": "Pockles"
+    },
+    "3": {
+      "title": "Bouncing Mario"
+    },
+    "4": {
+      "title": "Traffic signal detection algorithm"
+    },
+    "5": {
+      "title": "Hacker News"
     }
   },
   "content": {
@@ -39,5 +65,8 @@
       "sub1" : "Know how to listen, know how to speak",
       "sub2": "All product of a group effort"
     }
+  },
+  "novel": {
+    "title": "My novels"
   }
 }

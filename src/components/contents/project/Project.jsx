@@ -48,7 +48,14 @@ class Project extends Component {
                              alt="Intellij"/>
                     </div>
                 </div>
-                image slider
+                <div>
+                    <br/>
+                    <br/>
+                    <br/>
+                        <h1>Slider</h1>
+
+                </div>
+
                 <div className="buttonContainer">
                     <a href={projectData.find(x => x.id === parseInt(id, 10)).git}><span>Check on Git</span></a>
                     <a href="/"><span>Download</span></a>

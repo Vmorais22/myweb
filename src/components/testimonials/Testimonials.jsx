@@ -3,8 +3,10 @@ import rightArrow from "../../assets/right-arrow.png"
 import twitter from "../../assets/twitter.png"
 import youtube from "../../assets/youtube.png"
 import linkedin from "../../assets/linkedin.png"
+import {useTranslation} from "react-i18next";
 
 export default function Testimonials() {
+    const [t] = useTranslation("global");
     const data = [
         {
             id: 1,
@@ -40,7 +42,7 @@ export default function Testimonials() {
     ];
     return (
         <div className="testimonials" id="testimonials">
-            <h1>Testimonials</h1>
+            <h1>{t("novel.title")}</h1>
             <div className="container">
                 {data.map((d) => (
                     <div className={d.featured ? "card featured" : "card"}>

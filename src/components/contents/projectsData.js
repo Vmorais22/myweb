@@ -31,8 +31,7 @@ export const projectData = [
         },
         text: "Hasta hace relativamente poco, cosa de un año, considerábamos la transformación de servicios analógicos a digitales como una mejora. Como un capricho, podríamos incluso decir. Bastó una pandemia que restringiese nuestra movilidad y que estableciera el distanciamiento social como principal mecanismo de autodefensa para que dicha opción se convirtiera en una necesidad. Y es lógico, en realidad. Es más seguro hacer cualquier trámite bancario desde el móvil que desde una oficina. Es más seguro comprar por Internet que no en un abarrotado centro comercial. Y, por descontado, es más seguro restringir cualquier trámite a través de una pantalla que no cara a cara con un funcionario. El problema surge cuando esta medida, como muchas otras, no viene acompañada de su correspondiente séquito de contramedidas y planes de contingencia. ¿La consecuencia? El incremento de la brecha digital entre los denominados nativos digitales, aquellos que hemos nacido, crecido y vivido en un mundo rodeado de constantes avances tecnológicos, y de los no tan afortunados inmigrantes digitales, aquellos que han tenido que adaptarse a este cambio y, en definitiva, a un nuevo mundo en el que vivir. El problema es un puzle de muchas piezas y todas deben de tener el mismo peso e importancia si queremos hacer algo por remediarlo y esto es muy importante tenerlo en cuenta. Porque si lo hacemos, entendemos el problema y si entendemos el problema, podemos solucionarlo. Es por ello que el sistema a desarrollar enseñará conceptos sencillos e indispensables hoy en día para defenderse en la era tecnológica. Se estudiará a los potenciales usuarios para saber sus expectativas, se diseñará una plataforma web a partir de sus opiniones, se presentará el contenido de dos formas distintas, aprendizaje y desafío, de manera que el usuario podrá aprender algo por primera vez o retarse día a día para que el estudio sea continuado, y se intentará dar el empuje necesario para empezar a moverse en dirección a una inclusión digital.",
         photo: yayOS,
-        opt: { //segundo texto o fotos-slider
-        },
+        opt: [yayOS,señales],
         git: "https://github.com/Vmorais22/yayOS",
         //descarga
     }, {
@@ -57,9 +56,7 @@ export const projectData = [
             "En definitiva, una aplicación pensada para cooperar y divertirse con la comunidad local.\n" +
             "\n",
         photo: pockles,
-        opt: { //segundo texto o fotos-slider
-
-        },
+        opt: [yayOS,yayOS,yayOS],
         git: "https://bitbucket.org/sergiovmdo9797/pockles-app/src/develop/",
     },
     {
@@ -76,9 +73,7 @@ export const projectData = [
         },
         text: "El juego ofrece una experiencia en tres dimensiones de su musa, QOMP. Imita las mecánicas del juego pero cambiando por completo su estética y ambientación. EL juego se divide en una serie de niveles y el jugador tendrá que valerse de su destreza para superarlos todos y enfrentarse al nivel final. La mecánica del juego es muy simple pues tan solo existe un movimiento posible que es invertir la velocidad de la pelota apretando SPACEBAR. ¡Buena suerte!",
         photo: mario,
-        opt: { //segundo texto o fotos-slider
-
-        },
+        opt: [yayOS,yayOS,yayOS],
         git: "https://github.com/SergioArcos1999/3DGame-VJ",
     },
     {
@@ -99,9 +94,7 @@ export const projectData = [
             "\n" +
             "Esta práctica se desarrollará con el sistema de cómputo genérico MATLAB.\n",
         photo: señales,
-        opt: { //segundo texto o fotos-slider
-
-        },
+        opt: [yayOS,yayOS,yayOS],
         git: "https://bitbucket.org/paudastis/practica/src/master/",
     },
     {
@@ -116,9 +109,7 @@ export const projectData = [
         },
         text: "Una práctica universitaria que permitió trabajar por primera vez con contenido dinámico como la publicación y reacción a posts y comentarios, la creación de sistemas de gestión de bases de datos y de identificación y la edición de contenido subidos a servidores.",
         photo: hn,
-        opt: { //segundo texto o fotos-slider
-
-        },
+        opt: [yayOS,yayOS,yayOS],
         git: "https://bitbucket.org/sergiovmdo9797/hackernews-web-g12e/src/master/",
     },
 ];

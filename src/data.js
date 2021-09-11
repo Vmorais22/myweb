@@ -25,31 +25,31 @@ export const personalPortfolio = [
 export const projectsPortfolio = [
     {
         id: 1,
-        title: "yayOS",
+        title: 'projectsPortfolio.1.title',
         img: yayOS,
         link: "/project/1",
     },
     {
         id: 2,
-        title: "Pockles",
+        title: 'projectsPortfolio.2.title',
         img: pockles,
         link: "/project/2",
     },
     {
         id: 3,
-        title: "Bouncing Mario",
+        title: 'projectsPortfolio.3.title',
         img: mario,
         link: "/project/3",
     },
     {
         id: 4,
-        title: "Traffic algorithm",
+        title: 'projectsPortfolio.4.title',
         img: señales,
         link: "/project/4",
     },
     {
         id: 5,
-        title: "Hacker News",
+        title: 'projectsPortfolio.5.title',
         img: hn,
         link: "/project/5",
     },

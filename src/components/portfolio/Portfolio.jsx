@@ -6,7 +6,6 @@ import {
 } from "../../data";
 import {NavLink} from "react-router-dom";
 import {useTranslation} from "react-i18next";
-
 export default function Portfolio() {
     const [t] = useTranslation("global");
     const [selected, setSelected] = useState("personal");
@@ -14,19 +13,19 @@ export default function Portfolio() {
     const list = [
         {
             id: "personal",
-            title: "Personal",
+            title: t("portfolio.titles.personal"),
         },
         {
             id: "projects",
-            title: "Projects involved",
+            title: t("portfolio.titles.projects"),
         },
         {
             id: "research",
-            title: "Research works",
+            title: t("portfolio.titles.research"),
         },
         {
             id: "other",
-            title: "Other",
+            title: t("portfolio.titles.other"),
         },
     ];
 
@@ -49,7 +48,7 @@ export default function Portfolio() {
     }, [selected])
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>{t("portfolio.titles.main")}</h1>
             <ul>
                 {list.map(item => (
                     <PortfolioList title={item.title} active={selected === item.id} setSelected={setSelected}
