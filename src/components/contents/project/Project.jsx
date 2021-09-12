@@ -1,5 +1,5 @@
 import "./project.scss"
-import {projectData} from "../projectsData";
+import {projectData} from "./projectsData";
 import {withTranslation} from "react-i18next";
 import {Component} from "react";
 
