@@ -3,6 +3,7 @@ import imgen from "../../../assets/images/cven.PNG";
 import "./cv.scss"
 import CVES from "../../../assets/documents/CV Spanish.pdf";
 import CVEN from "../../../assets/documents/CV English.pdf";
+import library from "../../../assets/images/empty-bookcase.jpg"
 import {useTranslation} from "react-i18next";
 
 
@@ -16,7 +17,9 @@ export default function Cv() {
                 <h1>{t("curriculum")}</h1>
             </div>
             <br/>
-            <div className="container">
+            <div className="container"  style={{
+                backgroundImage: `url(${library})`
+            }}>
                 <div className="pdfContainer" style={{
                     backgroundImage: `url(${imges})`
                 }}>
