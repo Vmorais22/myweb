@@ -45,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "@material-ui/icons": "^4.11.2",
-    "i18next": "^20.4.0"
+    "@material-ui/icons": "^4.11.2"
   }
 }
