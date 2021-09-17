@@ -4,8 +4,10 @@ import twitter from "../../assets/images/twitter.png"
 import youtube from "../../assets/images/youtube.png"
 import linkedin from "../../assets/images/linkedin.png"
 import {useTranslation} from "react-i18next";
+import construction from "../../assets/images/pngjoy.com_coming-soon-sign-site-under-construction-png-transparent_9515370.png"
 
 export default function Testimonials() {
+    const ready = false;
     const [t] = useTranslation("global");
     const data = [
         {
@@ -41,30 +43,32 @@ export default function Testimonials() {
         },
     ];
     return (
+
         <div className="testimonials" id="testimonials">
-            <h1>{t("novel.title")}</h1>
-            <div className="container">
-                {data.map((d) => (
-                    <div className={d.featured ? "card featured" : "card"}>
-                        <div className="top">
-                            <img src={rightArrow} className="left" alt=""/>
-                            <img
-                                className="user"
-                                src={d.img}
-                                alt=""
-                            />
-                            <img className="right" src={d.icon} alt=""/>
+            {(ready) ? (<h1>{t("novel.title")}</h1>,
+                <div className="container">
+                    {data.map((d) => (
+                        <div className={d.featured ? "card featured" : "card"}>
+                            <div className="top">
+                                <img src={rightArrow} className="left" alt=""/>
+                                <img
+                                    className="user"
+                                    src={d.img}
+                                    alt=""
+                                />
+                                <img className="right" src={d.icon} alt=""/>
+                            </div>
+                            <div className="center">
+                                {d.desc}
+                            </div>
+                            <div className="bottom">
+                                <h3>{d.name}</h3>
+                                <h4>{d.title}</h4>
+                            </div>
                         </div>
-                        <div className="center">
-                            {d.desc}
-                        </div>
-                        <div className="bottom">
-                            <h3>{d.name}</h3>
-                            <h4>{d.title}</h4>
-                        </div>
-                    </div>
-                ))}
-            </div>
+                    ))}
+                </div>) : <img className={"constructions"} src={construction} alt={""}/> }
+
         </div>
 
     );

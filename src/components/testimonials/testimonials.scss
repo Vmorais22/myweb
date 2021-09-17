@@ -114,4 +114,17 @@
       }
     }
   }
+
+  .constructions{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+
+    &:hover{
+      opacity: 70%;
+      transform: scale(1.1);
+    }
+  }
 }
