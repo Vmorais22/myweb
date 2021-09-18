@@ -13,16 +13,16 @@ class Project extends Component {
 
             <div className="project">
                 <div className="title">
-                    <h1>{projectData.find(x => x.id === parseInt(id, 10)).title}</h1>
+                    <h1>{t(projectData.find(x => x.id === parseInt(id, 10)).title)}</h1>
                 </div>
 
                 <div className="summary">
-                    <p>{projectData.find(x => x.id === parseInt(id, 10)).summary}</p>
+                    <p>{t(projectData.find(x => x.id === parseInt(id, 10)).summary)}</p>
                 </div>
 
                 <div className="iconsContainer">
                     <div className="tools">
-                        <h2>Tools:</h2>
+                        <h2>{t("tools")}</h2>
                         <div className="icon">
                             {(projectData.find(x => x.id === parseInt(id, 10)).icons.tools).map((p) => (
                                 <img src={p} title="Intellij"
@@ -30,7 +30,7 @@ class Project extends Component {
                         </div>
                     </div>
                     <div className="languages">
-                        <h2>Languages & Frameworks:</h2>
+                        <h2>{t("L&F")}</h2>
                         <div className="icon">
                             <div className="icon">
                                 {(projectData.find(x => x.id === parseInt(id, 10)).icons.languagues).map((p) => (
@@ -43,7 +43,9 @@ class Project extends Component {
 
                 <div className="content">
                     <div className="text">
-                        <p>{projectData.find(x => x.id === parseInt(id, 10)).text}</p>
+                        <p>{t(projectData.find(x => x.id === parseInt(id, 10)).text1)}</p>
+                        <br/>
+                        <p>{t(projectData.find(x => x.id === parseInt(id, 10)).text2)}</p>
                     </div>
                     <div className="photo">
                         <img src={projectData.find(x => x.id === parseInt(id, 10)).photo} title="Intellij"

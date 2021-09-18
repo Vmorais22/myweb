@@ -41,19 +41,49 @@
   },
   "projectsPortfolio": {
     "1": {
-      "title": "yayOS"
+      "title": "yayOS",
+      "inside": {
+        "title": "yayOS: Plataforma web interactiva de inclusión de personas de la tercera edad en las nuevas tecnologías",
+        "summary": "El objetivo de este TFG es crear una herramienta software que permita aprender a usar los aspectos más básicos de un ordenador a gente con ninguna experiencia en el uso de las nuevas tecnologías, principalmente personas mayores. La transición digital ha abandonado a este sector de la población, y los efectos se han magnificado por culpa de la pandemia y el confinamiento.",
+        "text1": "Hasta hace relativamente poco, cosa de un año, considerábamos la transformación de servicios analógicos a digitales como una mejora. Como un capricho, podríamos incluso decir. Bastó una pandemia que restringiese nuestra movilidad y que estableciera el distanciamiento social como principal mecanismo de autodefensa para que dicha opción se convirtiera en una necesidad. Y es lógico, en realidad. Es más seguro hacer cualquier trámite bancario desde el móvil que desde una oficina. Es más seguro comprar por Internet que no en un abarrotado centro comercial. Y, por descontado, es más seguro restringir cualquier trámite a través de una pantalla que no cara a cara con un funcionario. El problema surge cuando esta medida, como muchas otras, no viene acompañada de su correspondiente séquito de contramedidas y planes de contingencia. ¿La consecuencia? El incremento de la brecha digital entre los denominados nativos digitales, aquellos que hemos nacido, crecido y vivido en un mundo rodeado de constantes avances tecnológicos, y de los no tan afortunados inmigrantes digitales, aquellos que han tenido que adaptarse a este cambio y, en definitiva, a un nuevo mundo en el que vivir.",
+        "text2": "Este fue mi proyecto de final de carrera: la creación de una aplicación web hecha por y para personas de avanzada edad. Mediante un riguroso análisis de los requisitos se estableció una interfaz que respondía a las necesidades de este tipo de usuarios tanto a nivel mecánico como visual, teniendo en cuenta el posible deterioro o mermado de sus capacidades sensoriales. Una vez implementado, el producto fue sometido a un proceso cíclico de refactorización que, de nuevo, se hacía a partir del feedback obtenido de un grupo de futuros usuarios del sistema. La aplicación introduce conceptos tan básicos como el uso del teclado y el ratón, la gestión de una cuenta de correo electrónico o la búsqueda por Internet, pero también enseña conceptos más avanzados como la compra online, la realización de videollamadas, o el uso de Google Maps. El sistema está traducido al catalán, castellano e inglés, y consta de un sistema de publicación de comentarios y de envío de opiniones para que los usuarios puedan sugerir cambios o mejoras en la plataforma."
+      }
     },
     "2": {
-      "title": "Pockles"
+      "title": "Pockles",
+      "inside": {
+        "title": "Pockles: Red de mensajería geosocial",
+        "summary": "Pockles es una aplicación Android que permite a los usuarios publicar mensajes allá donde quieran que vayan de manera que solo los usuarios que estén cerca podrán verlos. ¡Empieza a llenar el mundo de Pocks ya mismo! En este proyecto grupal participaron: Víctor Blanco, Joan Bosch, Pau Dastis, Daniel Palomo, Joan Salvador, Sergio Vázquez y yo.",
+        "text1": "Pockles es una aplicación de mensajería geosocial nunca antes vista en el mercado que facilita la cooperación entre los usuarios permitiendo dejar mensajes en lugares en los que se encuentren de diferente índole. Cuando descubras un mensaje navegando por el mundo, además de leerlo, podrás indicar si es útil o hablar con el autor mediante la función de chat, haciendo más fácil la cooperación entre usuarios. Nuestra app también beneficiará a los comercios locales y eventos que se organicen ya que podrán publicitarse mediante el uso de los ‘pocks’, que son los mensajes. En definitiva, una aplicación pensada para cooperar y divertirse con la comunidad local.",
+        "text2": "Esta aplicación móvil pretende imitar las redes sociales que todos conocemos añadiéndoles un cambio de perspectiva y es que el usuario solo puede ver aquello que está cerca de él. Contiene todos los elementos básicos de una red social: capacidad de publicación y reacción, personalización de un perfil, adición de amistades, chats, posibilidad de reportar usos inadecuados e, incluso, un sistema de gamificación basado en logros que potencie el uso de la plataforma. Una de las últimas funcionalidades añadidas es un mapa de calor que muestra la concentración de mensajes publicados en un área. Puede ser activado cuando uno disminuye el zoom del mapa."
+      }
     },
     "3": {
-      "title": "Bouncing Mario"
+      "title": "Bouncing Mario",
+      "inside": {
+        "title": "Bouncig Mario",
+        "summary": "Bouncing Mario es una adaptación inspirada en el mundo de Mario Bros del conocido juego QOMP (https://store.steampowered.com/app/1066900/qomp/) que, a su vez, es una adaptación del mítico juego de la primera generación de consolas PONG (https://es.wikipedia.org/wiki/Pong). Este proyecto fue realizado con Unity y, a nivel personal, el primer videojuego plenamente funcional que he creado. Colaboró en el desarrollo de este proyecto Sergio Arcos.",
+        "text1": "El juego ofrece una experiencia en tres dimensiones de su musa, QOMP. Imita las mecánicas del juego, pero cambiando por completo su estética y ambientación. EL juego se divide en una serie de niveles y el jugador tendrá que valerse de su destreza para superarlos todos y enfrentarse al nivel final. La mecánica del juego es muy simple pues tan solo existe un movimiento posible que es invertir la velocidad de la pelota apretando SPACEBAR. ¡Buena suerte!",
+        "text2": "Todos los recursos estéticos (elementos de interacción, decoraciones y fondos) fueron generados mediante MagicaVoxel, un editor de unidades cúbicas o voxels 8-bits. Se añadieron sonidos del propio juego así como diminutos efectos de partículas del propio Unity."
+      }
     },
     "4": {
-      "title": "Algoritmo de detección de señales de tráfico"
+      "title": "Algoritmo de detección de señales de tráfico",
+      "inside": {
+        "title": "Algoritmo de detección de señales de tráfico",
+        "summary": "Un detector de señales de tráfico a base del estudio de la composición cromática, su circularidad y la orientación de los píxeles. Proyecto realizado conjuntamente con Pau Dastis.",
+        "text1": "El objetivo de esta práctica es identificar correctamente una señal de tráfico presente en cualquier imagen de entrada de una base de datos en concreto. Aunque solo hay 43 tipos de señales a reconocer, la base de datos contiene un subconjunto de casi 40.000 imágenes. Las imágenes utilizadas para esta práctica han sido extraídas de una grabación realizada en un vehículo en marcha y las fotografías han sido tomadas desde distintos ángulos, distancias, fondos e incluso con variaciones en cuanto a la iluminación, el color y la escala se refiere. Para realizar este proyecto, extraemos las características que, a nuestro juicio, nos parezcan las más discriminantes con el fin de, mediante un clasificador, poder razonar y decidir a qué señal pertenecen los datos que observamos en dichos descriptores. Usaremos un conjunto de imágenes para entrenar al sistema y otro para testearlo (las imágenes que usaremos para hacer el test no habrán sido procesadas antes por el sistema). Esta práctica se desarrollará con el sistema de cómputo genérico MATLAB.",
+        "text2": "Las imágenes son siempre sometidas al mismo proceso. Primero se elimina el fondo a partir del cálculo de las profundidades de la imagen así como de sus relieves. Una vez aislada la señal, se perciben los cuatro colores más presentes y, en base a unos lindares establecidos, se asignan etiquetas que definan el color primario o secundario que es. De esta forma evitamos la influencia de factores lumínicos. Por último, se desarrolla un histograma de orientaciones que defina la forma de la señal y la de los elementos que contiene. De esta forma se obtiene el vector de características que, finalmente, el sistema utilizará para detectar qué señal es."
+      }
     },
     "5": {
-      "title": "Hacker News"
+      "title": "Hacker News",
+      "inside": {
+        "title": "Recreación del foro web Hacker News",
+        "summary": "Hacker News es un sitio web de noticias sociales que se centra en la informática y el espíritu empresarial. El objetivo de este proyecto fue simplemente el de recrear toda sus funcionalidades y diseño. Práctica desarrollado junto con Víctor Blanco, Marc Bofill y Segio Vázquez.",
+        "text1": "Una práctica universitaria que permitió trabajar por primera vez con contenido dinámico como la publicación y reacción a posts y comentarios, la creación de sistemas de gestión de bases de datos y de identificación y la edición de contenido subidos a servidores.",
+        "text2": "Hacker News (a veces abreviado como HN) es un sitio web de noticias sociales que se centra en la informática y el espíritu empresarial. Este proyecto es una copia del verdadero Hacker News tanto de su apariencia como a nivel funcional. La intención era recrear una comunidad similar a los primeros días de Reddit. Sin embargo, a diferencia de Reddit, donde los nuevos usuarios pueden votar inmediatamente tanto a favor como en contra del contenido, Hacker News no permite a los usuarios votar en contra del contenido hasta que hayan acumulado 501 puntos de \"karma\". Los puntos de karma se calculan como el número de votos positivos que ha recibido el contenido de un usuario determinado menos el número de votos negativos. Asimismo, no se permite \"marcar\" los comentarios hasta que el usuario tenga 30 puntos de karma."
+      }
     }
   },
   "content": {
@@ -72,5 +102,7 @@
   "download": "¡Descargar ahora!",
   "checkgit": "Ver Git",
   "dwl": "Descargar",
-  "curriculum": "Mi currículum"
+  "curriculum": "Mi currículum",
+  "tools": "Herramientas:",
+  "L&F": "Lenguajes & Frameworks:"
 }
