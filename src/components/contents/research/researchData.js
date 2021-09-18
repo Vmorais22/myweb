@@ -1,20 +1,22 @@
 import yayOS from "../../../assets/images/yayOSRW.PNG"
 import covid from "../../../assets/images/covid.PNG"
+import covid_doc from "../../../assets/documents/Aplicaciones de rastreo COVID19 vs privacidad.pdf"
+import yayos_doc from "../../../assets/documents/memoria TFG.pdf"
 export const researchData = [
     {
         id: 1,
-        title: "Desarrollo de una herramienta software orientada a la tercera edad para aprender a usar un ordenador",
-        date:"1 de Junio de 2021 - Trabajo de Final de Carrera",
-        resume:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        title: "researchPortfolio.1.inside.title",
+        date:"researchPortfolio.1.inside.date",
+        resume:"researchPortfolio.1.inside.resume",
         photo:yayOS,
-        link:""
+        link:yayos_doc
     },
     {
         id: 2,
-        title: "dddd",
-        date:"dfdf",
-        resume:"dsfsdfsdf",
+        title: "researchPortfolio.2.inside.title",
+        date:"researchPortfolio.2.inside.date",
+        resume:"researchPortfolio.2.inside.resume",
         photo:covid,
-        link:""
+        link: covid_doc
     }
 ];

@@ -84,6 +84,34 @@
         "text1": "Una práctica universitaria que permitió trabajar por primera vez con contenido dinámico como la publicación y reacción a posts y comentarios, la creación de sistemas de gestión de bases de datos y de identificación y la edición de contenido subidos a servidores.",
         "text2": "Hacker News (a veces abreviado como HN) es un sitio web de noticias sociales que se centra en la informática y el espíritu empresarial. Este proyecto es una copia del verdadero Hacker News tanto de su apariencia como a nivel funcional. La intención era recrear una comunidad similar a los primeros días de Reddit. Sin embargo, a diferencia de Reddit, donde los nuevos usuarios pueden votar inmediatamente tanto a favor como en contra del contenido, Hacker News no permite a los usuarios votar en contra del contenido hasta que hayan acumulado 501 puntos de \"karma\". Los puntos de karma se calculan como el número de votos positivos que ha recibido el contenido de un usuario determinado menos el número de votos negativos. Asimismo, no se permite \"marcar\" los comentarios hasta que el usuario tenga 30 puntos de karma."
       }
+    },
+    "6": {
+      "title": "Quality Of Experience Meter",
+      "inside": {
+        "title": "Quality Of Experience Meter: Analizando la calidad del streaming en teléfonos móviles.",
+        "summary": "Proyecto realizado en colaboración con Telefónica y en el que participaron Víctor Blanco, Sergio Vázquez y yo mismo. Su objetivo era desarrollar una herramienta que permitiera la recolección automática de la experiencia del usuario al visualizar contenido en streaming para mejorar los servicios que ofrecía la operadora.",
+        "text1": "En un mundo tan informatizado estamos más que acostumbrados a que nos pregunten nuestra opinión sobre un servicio que acabamos de usar. Y no solo me refiero a, por ejemplo, las videollamadas, las encuestas de atención al cliente o la reviews de un producto comprado. Encontramos esas mismas peticiones de feedback en ámbitos no tecnológicos como los supermercados, tiendas, hostelería, gimnasios e incluso transporte público. Todas ellas, en general, comparten un mismo factor y es que se producen después de haber probado, comprado o usado el producto en cuestión. A veces mucho después. Eso da la sensación al usuario de que enviar feedback no le aporta realmente nada y que su opinión no va a hacer que el sistema mejore.",
+        "text2": "La aplicación permite a los usuarios mandar feedback de la calidad de su servicio de streaming en todo momento. Incluso durante el mismo. Aparte de los parámetros subjetivos que el usuario pueda indicar, la aplicación recoge una serie de datos totalmente anónimos para comprender mejor las circunstancias que rodean al informe: consumición de CPU y de RAM, tipo de red, localización, fecha, versión de sistema operativo, modelo del dispositivo y de su antena, latencia, intensidad de conexión, velocidad de conexión y packet loss (%) entre otros. Los usuarios son recompensados al enviar sus opiniones con puntos que pueden ser posteriormente canjeados en una tienda con productos que la operadora ofrece. El sistema es fácilmente adaptable a cualquier operadora. La información recogida es luego representada en un dashboard para que la empresa interesada pueda monitorizarla."
+      }
+    }
+
+  },
+  "researchPortfolio": {
+    "1": {
+      "title": "yayOS: Memoria",
+      "inside": {
+        "title":"Desarrollo de una herramienta software orientada a la tercera edad para aprender a usar un ordenador",
+        "date": "1 de Junio de 2021",
+        "resume": "Hasta hace relativamente poco, cosa de un año, considerábamos la transformación de servicios analógicos a digitales como una mejora. Como un capricho, podríamos incluso decir. Bastó una pandemia que restringiese nuestra movilidad y que estableciera el distanciamiento social como principal mecanismo de autodefensa para que dicha opción se convirtiera en una necesidad. Y es lógico, en realidad. Es más seguro hacer cualquier trámite bancario desde el móvil que desde una oficina. Es más seguro comprar por Internet que no en un abarrotado centro comercial. Y, por descontado, es más seguro restringir cualquier trámite a través de una pantalla que no cara a cara con un funcionario. El problema surge cuando esta medida, como muchas otras, no viene acompañada de su correspondiente séquito de contramedidas y planes de contingencia. ¿La consecuencia? El incremento de la brecha digital entre los denominados nativos digitales, aquellos que hemos nacido, crecido y vivido en un mundo rodeado de constantes avances tecnológicos, y de los no tan afortunados inmigrantes digitales, aquellos que han tenido que adaptarse a este cambio y, en definitiva, a un nuevo mundo en el que vivir. En este escrtio se recogen todas las decisiones tomadas, justificaciones y revisiones del proceso de desarrollo de yayOS."
+      }
+    },
+    "2": {
+      "title": "Las aplicaciones de rastreo COVID19 y su privacidad",
+      "inside": {
+        "title":"Las aplicaciones de rastreo COVID19 y su privacidad",
+        "date": "28 de Mayo 2021",
+        "resume": "Radar COVID-19 en España, Corona Warn en Alemania, NHS COVID-19 en el Reino Unido, TousAntiCovid en Francia, Immuni en Italia, Self-quarantine safety protection en Corea del Sur, HaMagen en Israel, Aarogya Setu en la India…. Países distintos, gobiernos distintos, nombres distintos, programadores distintos, lanzamientos distintos, presupuestos distintos y grado de aceptación distintos, pero un mismo objetivo: todas permiten rastrear contactos estrechos positivos por COVID. En este escrito se recoge toda la información referente al estado actual de las aplicaciones de rastreo en el mundo, y más concretamente en España, en las circunstancias pandémicas de la fecha de publicación. A su vez, se analizarán en profundidad los distintos mecanismos de funcionamientos haciendo una distinción principal entre los sistemas centralizados y descentralizados. En base a toda esta información se opinara sobre las razones por las cuales este tipo de aplicaciones cosechan unos resultados de uso tan ínfimos en Europa y, por último, se investigará si son veraces las acusaciones en términos de violación de privacidad del usuario."
+      }
     }
   },
   "content": {

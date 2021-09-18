@@ -14,6 +14,7 @@ import mario from "../../../assets/images/mario.png"
 import matlab from "../../../assets/images/Matlab-1.png"
 import señales from "../../../assets/images/signsdetec.png"
 import hn from "../../../assets/images/hn.png"
+import qoe from "../../../assets/images/qoemeter.png"
 
 export const projectData = [
     {
@@ -101,6 +102,22 @@ export const projectData = [
         text1: "projectsPortfolio.5.inside.text1",
         text2:"projectsPortfolio.5.inside.text2",
         photo: hn,
+        opt: [yayOS,yayOS,yayOS],
+        git: "https://bitbucket.org/sergiovmdo9797/hackernews-web-g12e/src/master/",
+    },
+    {
+        id: 6,
+        title: "projectsPortfolio.6.inside.title",
+        summary: "projectsPortfolio.6.inside.summary",
+        icons: {
+            ntools: 2,
+            tools: [intellij, postman],
+            nlanguages: 2,
+            languagues: [react, js],
+        },
+        text1: "projectsPortfolio.6.inside.text1",
+        text2:"projectsPortfolio.6.inside.text2",
+        photo: qoe,
         opt: [yayOS,yayOS,yayOS],
         git: "https://bitbucket.org/sergiovmdo9797/hackernews-web-g12e/src/master/",
     },

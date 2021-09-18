@@ -1,4 +1,3 @@
-
 import frame1 from "./assets/images/frameDebath1.png"
 import cv from "./assets/images/cv.png"
 import yayOS from "./assets/images/exampleYayos1.PNG"
@@ -6,6 +5,9 @@ import pockles from "./assets/images/pockles.png"
 import mario from "./assets/images/ejmario.PNG"
 import señales from "./assets/images/señales.PNG"
 import hn from "./assets/images/hn.png"
+import covid from "./assets/images/covidintro.PNG"
+import yayosphoto from "./assets/images/yayosdocphoto.PNG"
+import qoe from "./assets/images/qoe.PNG"
 
 export const personalPortfolio = [
     {
@@ -53,66 +55,29 @@ export const projectsPortfolio = [
         img: hn,
         link: "/project/5",
     },
+    {
+        id: 6,
+        title: 'projectsPortfolio.6.title',
+        img: qoe,
+        link: "/project/6",
+    },
 ];
 
 export const researchPortfolio = [
     {
         id: 1,
-        title: "TFG",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        title: "researchPortfolio.1.title",
+        img: yayosphoto,
         link: "/research/1",
     },
     {
         id: 2,
-        title: "COVID",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        title: "researchPortfolio.2.title",
+        img: covid,
         link: "/research/2",
     },
 ];
 
 export const otherPortfolio = [
-    {
-        id: 1,
-        title: "Content Social Media App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
-    },
-    {
-        id: 2,
-        title: "Content Rampa UI Design",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
-    },
-    {
-        id: 3,
-        title: "Content E-commerce Web Design",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
-    },
-    {
-        id: 4,
-        title: "Content Relax Mobile App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
-    },
-    {
-        id: 5,
-        title: "Content Keser Web Design",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
-    },
-    {
-        id: 6,
-        title: "Content Banking App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-        link: "/debath",
-    },
+
 ];
