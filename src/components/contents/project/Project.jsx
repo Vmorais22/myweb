@@ -25,8 +25,8 @@ class Project extends Component {
                         <h2>{t("tools")}</h2>
                         <div className="icon">
                             {(projectData.find(x => x.id === parseInt(id, 10)).icons.tools).map((p) => (
-                                <img src={p} title="Intellij"
-                                     alt="Intellij"/>))}
+                                <img src={p}
+                                     alt="Tools"/>))}
                         </div>
                     </div>
                     <div className="languages">
@@ -34,8 +34,8 @@ class Project extends Component {
                         <div className="icon">
                             <div className="icon">
                                 {(projectData.find(x => x.id === parseInt(id, 10)).icons.languagues).map((p) => (
-                                    <img src={p} title="Intellij"
-                                         alt="Intellij"/>))}
+                                    <img src={p}
+                                         alt="L&F"/>))}
                             </div>
                         </div>
                     </div>
